@@ -13,9 +13,9 @@
 
     - name: 'Set Known Facts'
       set_fact:
-        pgrole: 'sonarr'
+        pgrole: 'sonarr-requests'
         intport: '8989'
-        extport: '8989'
+        extport: '8990'
         image: 'linuxserver/sonarr:preview'
 
     # CORE (MANDATORY) ############################################################
