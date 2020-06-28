@@ -13,9 +13,9 @@
 
     - name: 'Set Known Facts'
       set_fact:
-        pgrole: 'nzbget'
+        pgrole: 'nzbget-requests'
         intport: '6789'
-        extport: '6789'
+        extport: '6790'
         image: 'linuxserver/nzbget'
 
     # CORE (MANDATORY) ############################################################
